@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  WhereIsVirus
+
+  Created by maciej.burdzicki on 21/03/2020.
+  Copyright © 2020 maciej.burdzicki. All rights reserved.
+*/
+
+"letsStartTitle" = "Let's start";
+"signInTitle" = "Sign in";
+"back" = "Back";
+"filters" = "Filters";
+"mapTitle" = "Where is the Virus?";
+"virusTestLabel" = "Coronavirus test result:";
+"positive" = "Positive";
+"negative" = "Negative";
+"reportVirus" = "Report Virus";
+"stopVirus" = "Let's stop virus";
