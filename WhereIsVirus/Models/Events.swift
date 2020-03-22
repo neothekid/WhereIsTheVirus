@@ -16,14 +16,16 @@ struct Events: Codable {
 struct Event: Codable {
     let id: Int
     let occurrenceDate: Date
-    let hasIllnessSymptoms: Bool
     let creationDate: Date
     let lastUpdateDate: Date
-    let socialConfirmationCounter: Int
+    let hasCough: Bool
+    let hasFever: Bool
+    let hasShortnessBreath: Bool
     let description: String?
     let longitude: Double
     let latitude: Double
     let confirmedBySanepid: Bool
+    let address: String
     let inQuarantine: Bool
 }
 

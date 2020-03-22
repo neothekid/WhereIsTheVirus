@@ -66,6 +66,13 @@ class EventCalloutView: UIView {
     }
     
     private func setupView() {
+        if #available(iOS 13.0, *) {
+            if traitCollection.userInterfaceStyle == .dark {
+                backgroundColor = UIColor(red: 0.125, green: 0.133, blue: 0.137, alpha: 1)
+            } else {
+                backgroundColor = .white
+            }
+        }
         virusTestLabel.text = StringResource.virusTestLabel.value
         resultLabel.text = isConfirmed ? StringResource.positive.value.uppercased() : StringResource.negative.value.uppercased()
     }
