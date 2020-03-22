@@ -31,7 +31,7 @@ class EventLocation: NSObject, MKAnnotation {
     var title: String?
     let model: Event
     var coordinate: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: model.longitude, longitude: model.latitude)
+        CLLocationCoordinate2D(latitude: model.latitude, longitude: model.longitude)
     }
     
     init(with model: Event) {
